@@ -1,0 +1,101 @@
+.text-align {
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 70px;
+    font-weight: 1100px;
+    color: white;
+}
+
+.small {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.sectionA {
+    background-image: url(donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding-top: 100px;
+}
+
+body {
+    margin: 0;
+}
+
+.dv {
+    color: #03171f;
+    background-color: #e3cb31;
+    font-size: 30px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.edit {
+    text-align: center;
+}
+
+.text2 {
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 70px;
+    font-weight: 900px;
+}
+
+.small2 {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.689);
+}
+
+.tk {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tk200 {
+    background-color: orange;
+    border: 2px solid red;
+}
+
+#only {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.586);
+}
+
+.line {
+    width: 500px;
+    height: 0px;
+    margin-left: 38%;
+    margin-bottom: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.564);
+}
+
+.new {
+    text-align: center;
+}
+
+span {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.574);
+}
+
+.plan {
+    display: flex;
+    width: 40px;
+}
