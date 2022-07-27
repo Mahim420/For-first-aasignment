@@ -1,32 +1,30 @@
-.text-align {
-    text-align: center;
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 70px;
-    font-weight: 1100px;
-    color: white;
-}
-
-.small {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-#sectionA {
-    background-image: url(donation1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-    padding-top: 200px;
-}
-
 body {
     margin: 0;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#lorem {
+    font-size: 20px;
+}
+
 .button {
     color: #03171f;
-    background-color: #e3cb31;
+    background-image: linear-gradient(white, orange);
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 10px;
@@ -96,6 +94,7 @@ body {
 span {
     font-size: 20px;
     text-align: center;
+    color: rgba(0, 0, 0, 0.396);
 
 }
 
@@ -168,8 +167,9 @@ span {
 }
 
 .half-width img {
-    width: 210%;
+    width: 110%;
     margin-top: 50px;
+    height: 90%;
 }
 
 #sectionE {
@@ -187,6 +187,53 @@ span {
 .for-this img {
     width: 100%;
     margin-top: 50px;
-    height: 85%;
+    height: 90%;
+}
 
+#get {
+    font-size: 60px;
+    text-align: center;
+}
+
+#mail {
+    color: rgba(0, 0, 0, 0.114);
+}
+
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(212, 178, 131, 0.314);
+    margin: 0px 400px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.email-input {
+    position: relative;
+}
+
+#text-input {
+    border: none;
+    padding: 15px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#subs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding: 15px;
+    background-color: rgba(227, 30, 30, 0.842);
+    color: white;
+    border-radius: 0px 10px 10px 0px;
 }
