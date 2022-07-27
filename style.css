@@ -237,3 +237,22 @@ hr {
     color: white;
     border-radius: 0px 10px 10px 0px;
 }
+
+#humble {
+    color: red;
+    font-style: inherit;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+
+#do {
+    color: white;
+    font-weight: 10px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.921);
+    height: 80px;
+}
